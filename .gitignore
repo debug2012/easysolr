@@ -1,0 +1,4 @@
+.idea
+_output
+vendor
+composer.lock
