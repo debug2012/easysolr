@@ -1,0 +1,19 @@
+namespace: terry\solr
+suites:
+    unit:
+        path: .
+        actor: UnitTester
+        modules:
+            enabled:
+                # add more modules here
+                - Asserts
+settings:
+    shuffle: true
+    lint: true
+    bootstrap: _bootstrap.php
+paths:
+    tests: cests
+    output: cests/_output
+    support: cests/_support
+    data: cests
+     

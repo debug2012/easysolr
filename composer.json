@@ -1,0 +1,35 @@
+{
+  "name": "terry/easy_solr",
+  "type": "library",
+  "description": "EasySolr is a solr client library",
+  "keywords": [
+    "solr",
+    "solr client"
+  ],
+  "homepage": "http://debug2012.github.io/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "TerryWong",
+      "email": "huanw2010@gmail.com",
+      "homepage": "https://github.com/debug2012"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "^6.0"
+  },
+  "require-dev": {
+    "ext-curl": "*",
+    "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+    "psr/log": "^1.0"
+  },
+  "autoload": {
+    "files": [
+      "src/functions_include.php"
+    ],
+    "psr-4": {
+      "TerrySolr\\": "src/"
+    }
+  }
+}
