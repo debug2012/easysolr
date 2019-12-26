@@ -1,5 +1,5 @@
 {
-  "name": "terry/solr",
+  "name": "terry/easysolr",
   "type": "library",
   "description": "EasySolr is a Solr api wrapper for PHP",
   "keywords": [
