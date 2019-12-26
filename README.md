@@ -1,8 +1,14 @@
+> ### install by composer
+```
+composer require terry/easy_solr:dev-master
+```
 > ### make tests
 ```
-cd {$vendor directory}/terry/solr
+cd {$vendor directory}/terry/easy_solr
 phpunit
 ```
+- The test cases cannot work because of the solrzs was a private solr cloud service
+- You can modify the the stub test code to adapt your solr service
 > ### use EasySolr
 
 - instantiated EasySolr object
