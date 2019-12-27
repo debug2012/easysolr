@@ -1,10 +1,10 @@
 > ### install by composer
 ```
-composer require terry/easy_solr:dev-master
+composer require terry/easysolr:dev-master
 ```
 > ### make tests
 ```
-cd {$vendor directory}/terry/easy_solr
+cd {$vendor directory}/terry/easysolr
 phpunit
 ```
 - The test cases cannot work because of the solrzs was a private solr cloud service
